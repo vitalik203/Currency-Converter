@@ -3,13 +3,12 @@ const output = document.querySelector(".var2")
 const convert = document.querySelector(".action")
 const currency = document.querySelector(".select1")
 const outputCurrency = document.querySelector(".select2")
-
+let convertInput = parseFloat(input)
 const euroK = 41.5730;
 const usdK = 38.0775;
 
 convert.addEventListener("click", function(){
-    let res;
-    const valueI = input.value
+    let res=convertInput;
     if(currency.value==="uah"&&outputCurrency.value==="euro"){
         res = input.value/euroK;
     }else if(currency.value==="uah"&&outputCurrency.value==="usd"){
