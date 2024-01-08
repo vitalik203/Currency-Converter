@@ -18,8 +18,8 @@ convert.addEventListener("click", function(){
         res = input.value*euroK
     }else if(currency.value==="usd"&&outputCurrency.value==="uah"){
         res = input.value*usdK
-    }else{
+    }else if((currency.value==="uah"&&outputCurrency.value==="uah")||(currency.value==="euro"&&outputCurrency.value==="euro")||(currency.value==="usd"&&outputCurrency.value==="usd")){
         res = 0
     }
-    output.value = res
+    output.value = res.toFixed(2)
 })
