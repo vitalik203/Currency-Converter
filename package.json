@@ -1,0 +1,28 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalik203/Currency-Converter.git"
+  },
+  "author": "Vitalii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitalik203/Currency-Converter/issues"
+  },
+  "homepage": "https://github.com/vitalik203/Currency-Converter#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "semantic-release": "^22.0.12"
+  }
+}
